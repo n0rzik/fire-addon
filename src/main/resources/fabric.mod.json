@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fire-addon",
+  "version": "${version}",
+  "name": "Fire",
+  "description": "fan addon",
+  "authors": [
+    "n0rzik"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "n0rzik.fire.Fire"
+    ]
+  },
+  "mixins": [
+    "fire.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}

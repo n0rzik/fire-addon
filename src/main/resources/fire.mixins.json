@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "n0rzik.fire.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
