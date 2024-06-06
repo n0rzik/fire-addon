@@ -8,7 +8,7 @@
     "n0rzik"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/n0rzik/fire-addon"
   },
   "environment": "client",
   "entrypoints": {
