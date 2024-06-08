@@ -4,9 +4,9 @@ import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
-import n0rzik.fire.modules.combat.NoHitDelay;
-import n0rzik.fire.modules.exploit.HitboxDesync;
-import n0rzik.fire.modules.movement.FastWeb;
+import n0rzik.fire.modules.combat.*;
+import n0rzik.fire.modules.exploit.*;
+import n0rzik.fire.modules.movement.*;
 import org.slf4j.Logger;
 
 public class Fire extends MeteorAddon {
@@ -15,7 +15,7 @@ public class Fire extends MeteorAddon {
 
     //public static String notif = "[Fire]";
     public static String install = "fire ";
-    public static String version = "0.1.1";
+    public static String version = "0.1.2";
 
     @Override
     public void onInitialize() {
@@ -25,6 +25,7 @@ public class Fire extends MeteorAddon {
         Modules.get().add(new NoHitDelay());
         //EXPLOIT
         Modules.get().add(new HitboxDesync());
+        Modules.get().add(new MultiTask());
         //MOVEMENT
         Modules.get().add(new FastWeb());
     }
