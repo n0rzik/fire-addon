@@ -23,6 +23,7 @@ public class Fire extends MeteorAddon {
 
         //COMBAT
         Modules.get().add(new NoHitDelay());
+        Modules.get().add(new PistonPush()); //does not work
         //EXPLOIT
         Modules.get().add(new HitboxDesync());
         Modules.get().add(new MultiTask());
