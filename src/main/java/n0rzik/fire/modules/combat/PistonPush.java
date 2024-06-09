@@ -13,7 +13,7 @@ import java.util.List;
 
 public class PistonPush extends Module {
     public PistonPush () {
-        super(Fire.FIRE, "PistonPush", "");
+        super(Fire.FIRE, "PistonPush", "does not work");
     }
     private final SettingGroup sgGenetal = settings.getDefaultGroup();
 
