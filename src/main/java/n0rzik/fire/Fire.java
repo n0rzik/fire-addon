@@ -13,7 +13,6 @@ public class Fire extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
     public static final Category FIRE = new Category("Fire");
 
-    //public static String notif = "[Fire]";
     public static String install = "fire ";
     public static String version = "0.1.2";
 
